@@ -1,0 +1,24 @@
+<!--pages/login/login.wxml-->
+<view class="all">
+  <view class="hello">
+    <text>你好，
+          欢迎来到树洞!
+    </text>
+  </view>
+
+  <view class="input">
+    <view class="test">
+      <view class="select-wrap">
+      <select id="select" options="{{options}}" key="city_id" text="city_name" bind:change="change"></select>
+    </view>
+    </view>
+    <input placeholder="请输入手机号码"></input>
+    <text class="prompt">未注册的手机号验证后自动创建账户</text>
+    <button class="btn">获取短信验证码</button>
+    <text class="passlg">密码登录</text>
+  </view>
+
+  <view class="bottom">
+  <text>登录即明表同意和<text class="passlg">《树洞用户协议》</text>和<text class="passlg">《隐私政策》</text></text>
+  </view>
+</view>

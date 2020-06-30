@@ -1,0 +1,74 @@
+/* pages/login/login.wxss */
+.all {
+  padding: 7%;
+}
+.hello text{
+  font-size: 50rpx;
+  font-weight: bold;
+  line-height: 40px;
+}
+.input {
+  border-radius: 1px;
+  height: 45px;
+  margin-top: 20%;
+}
+.test{
+  line-height: 40px;
+  justify-self: center;
+  float: left;
+  background: #f8f8f8;
+  width: 20%;
+  height: 100%;
+}
+
+.input input{
+  float: left;
+  padding: 0 0 0 5px;
+  width: 78%;
+  height: 100%;
+  background: #f8f8f8;
+  margin-bottom: 5px;
+}
+
+.prompt{
+  color: #c2c2c2;
+  font-size: 25rpx;
+}
+/* .input text{
+  color: #c2c2c2;
+  font-size: 25rpx;
+} */
+
+.input .btn{
+  width: 100%;
+  margin-top: 25px;
+  height: 45px;
+  color: #ffffff;
+  background: #dfdfdf;
+  border: none;
+  margin-bottom: 5px;
+}
+
+page {
+  height: 100%;
+}
+
+.select-wrap {
+  width: 300rpx;
+}
+
+.selected {
+  margin-top: 50%;
+}
+
+.passlg{
+  color: #5ea8f9;
+  font-size: 25rpx;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 30px;
+  font-size: 25rpx;
+  text-align: center;
+}
