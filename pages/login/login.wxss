@@ -2,6 +2,7 @@
 .all {
   padding: 7%;
 }
+
 .hello text{
   font-size: 50rpx;
   font-weight: bold;
@@ -28,6 +29,7 @@
   height: 100%;
   background: #f8f8f8;
   margin-bottom: 5px;
+  border-radius: 2px;
 }
 
 .prompt{
@@ -67,8 +69,7 @@ page {
 }
 
 .bottom {
-  position: fixed;
-  bottom: 30px;
+  position: absolute;
+  bottom: 25px;
   font-size: 25rpx;
-  text-align: center;
 }

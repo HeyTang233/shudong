@@ -15,7 +15,7 @@
     <input placeholder="请输入手机号码"></input>
     <text class="prompt">未注册的手机号验证后自动创建账户</text>
     <button class="btn">获取短信验证码</button>
-    <text class="passlg">密码登录</text>
+    <navigator hover-class="none" url="../pass login/pass login"><text class="passlg">密码登录</text></navigator>
   </view>
 
   <view class="bottom">

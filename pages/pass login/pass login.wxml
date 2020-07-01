@@ -1,2 +1,14 @@
 <!--pages/pass login/pass login.wxml-->
-<text>pages/pass login/pass login.wxml</text>
+<view class="all">
+  <view class="hello">
+    <text>账号密码登录</text>
+  </view>
+  
+  <view class="input">
+     <input placeholder="请输入手机号码"></input>
+     <input placeholder="请输入密码"></input>
+     <button class="btn">登录</button>
+     <text class="captcha fl" bindtap="signin">验证码登录</text>
+     <text class="forget fr">忘记密码</text>
+  </view>
+</view>

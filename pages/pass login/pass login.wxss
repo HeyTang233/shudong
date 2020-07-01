@@ -1,1 +1,45 @@
 /* pages/pass login/pass login.wxss */
+.all {
+  padding: 7%;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.hello text{
+  font-size: 50rpx;
+  font-weight: bold;
+  line-height: 40px;
+}
+.input {
+  border-radius: 1px;
+  height: 45px;
+  margin-top: 15%;
+}
+.input input{
+  font-size: 25rpx;
+  background: #f8f8f8;
+  height: 100%;
+  margin-bottom: 15px;
+  padding: 0 0 0 15px;
+  border-radius: 2px;
+  /* color: #d1c7c3; */
+}
+.input .btn{
+  margin-top: 12%;
+  width: 100%;
+  background: #dfdfdf;
+  color: #f9f9f9;
+}
+.captcha{
+  margin-top: 10px;
+  font-size: 25rpx;
+  color: #6aa1f8;
+}
+.forget{
+  margin-top: 10px;
+  font-size: 25rpx;
+  color: #999999;
+}

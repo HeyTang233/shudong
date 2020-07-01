@@ -12,6 +12,11 @@ Page({
     }],
     selected: {}
   },
+  signin:function (e) {
+    wx.navigateBack({
+      delta: 1
+    })
+  },
   change (e) {
     this.setData({
       selected: { ...e.detail }

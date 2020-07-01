@@ -7,7 +7,7 @@
 .select-current {
   position: relative;
   width: 100%;
-  padding: 0 10rpx;
+  padding: 0 20rpx;
   line-height: 80rpx;
   /* border: 1rpx solid #ddd; */
   border-radius: 6rpx;
